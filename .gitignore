@@ -1,0 +1,42 @@
+# === OS cruft ===
+.DS_Store
+Thumbs.db
+
+# === Editors / IDEs ===
+.vscode/
+*.code-workspace
+.idea/
+.history/
+
+# === VS Code AI / context artifacts ===
+insights/managed_context/
+insights/test_suite_analysis/
+.qudo/
+
+# === Python (scripts/analysis, if any) ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.pyo
+.pytest_cache/
+
+# === Build / temp files ===
+*.log
+*.out
+*.aux
+*.toc
+*.pdf
+*.synctex.gz
+
+# === Pandoc / LaTeX scratch ===
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+
+# === Backup / temp ===
+*~
+*.bak
+*.swp
